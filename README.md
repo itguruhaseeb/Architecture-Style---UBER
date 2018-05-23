@@ -1,6 +1,7 @@
 <h1> What is Architecture Style UBER?</h1>
 
-UBER is an architecture style. It applies set of architecture , software design patterns in an efficient way. Which provides structural conformance of the overall architecture in a holistic manner. Rather limited to individual view, model and respective controller. This architecture style begins with focus on layers, concerns defining building blocks, ( User Interface, Business, Entities/Model and Exception, REST) control points, inter module communication which collectively sounds UBER :-).
+I've coined the term "UBER" for an architecture style and what it does. UBER is an architecture style. It applies set of architecture , software design patterns in an efficient way. Which provides structural conformance of the overall architecture in a holistic manner. Rather limited to individual view, model and respective controller. This architecture style begins with focus on layers, concerns defining building blocks, ( User Interface, Business, Entities/Model and Exception, REST) control points, inter module communication which collectively sounds UBER :-).
+
 
 <h1>Why Architecture Style - UBER?</h1>
 <p>Traditionally there is a lot of emphasis given from the get go whilst building mobile apps to choose an architecture pattern that is MVC, MVVM, Reactive or MVP etc. So let's assume you chose MVC as your mobile app architecture pattern. As the mobile app evolves with more features and extensive code base. Let's try to envision what the mobile architecture would look like? The diagram below illustrates a common scenario for a large number of mobile apps</p>
