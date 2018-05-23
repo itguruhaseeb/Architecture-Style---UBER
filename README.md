@@ -2,7 +2,13 @@
 
 UBER is an architecture style. It applies set of architecture , software design patterns in an efficient way. Which provides structural conformance of the overall architecture in a holistic manner. Rather limited to individual view, model and respective controller. This architecture style begins with focus on layers, concerns defining building blocks, ( User Interface, Business, Entities/Model and Exception, REST) control points, inter module communication which collectively sounds UBER :-).
 
-This sample project illustrates the implementation of this architecture style for iOS + Swift
+<h1>Why Architecture Style - UBER?</h1>
+<p>Traditionally there is a lot of emphasis given from the get go whilst building mobile apps to choose an architecture pattern that is MVC, MVVM, Reactive or MVP etc. So let's assume you chose MVC as your mobile app architecture pattern. As the mobile app evolves with more features and extensive code base. Let's try to envision what the mobile architecture would look like? The diagram below illustrates a common scenario for a large number of mobile apps</p>
+
+<p><h2>Architecture patterns are redundant silos without a proper architecture style</h2></p>
+<img src="https://media.licdn.com/dms/image/C4D12AQFcaRqzCjNUMw/article-inline_image-shrink_1500_2232/0?e=2126476800&v=beta&t=emW3GGWpSPwOahp4i119CALF0JAZUfJrsxPadVYSoOo" title="UBER Architecture style - Architecture patterns redundant silos without architecture style " />
+
+<p><h2>This sample project illustrates the implementation of this architecture style for iOS + Swift</h2></p>
 <img src="https://media.licdn.com/dms/image/C4E12AQGcPNw9ALZ16A/article-inline_image-shrink_1500_2232/0?e=2126476800&v=beta&t=FV87J4INYIjgUPaMGnDsIna8NJLRxrg8FQqUg2DTOsc" title="UBER Architecture Style Diagram" />
 
 <h1>Sample Project - How it works?</h1>
@@ -1141,3 +1147,15 @@ class ExceptionManager{
 <p>Again for the sake of this architecture example. ExceptionLayer has a basic implementation. You can take this and extend it further.</p>
 
 <p>To wrap this up last but not the least. I would like to show you the call stack propagation from view (VC2) to its respective business service (which is FeatureABCService). Also update back. Please refer the diagram below</p>
+
+<img src="https://media.licdn.com/dms/image/C4E12AQFwXwSQvoWAiQ/article-inline_image-shrink_1500_2232/0?e=2126476800&v=beta&t=FCER3-UeojwPw61SvpCb9cgcJIHRXm46F0ZKMPJKoww" title="UBER Architecture Style - Demo" />
+
+<p>So in the diagram above you can see it on the left side under "Thread 1" from 10 to 0. How the communication between different layers is streamlined. This provides a clean separation of concern which will make the mobile app scalable, testable and maintainable.</p>
+
+<p><h1>Final Thoughts</h1></p>
+<ul>
+<li>Architecture style focuses on the overall system rather individual module or sub-module. This provides greater control to steer towards a robust architecture. UBER is nothing but an architecture style</li>
+<li>Architecture Pattern's and Design Pattern's together enables realization of an architecture style. Their impact is localized and focuses on each individual module, classes and objects etc</li>
+<li>This architecture style or approach is also known as layered architecture and its been use in the industry for a long time in server side application, infra-structure deployment etc</li>
+<li> This clear seperation of layers would also enable you us to unit test business services and each individual module</li>
+</ul>
