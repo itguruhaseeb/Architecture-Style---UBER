@@ -1158,5 +1158,5 @@ class ExceptionManager{
 <li>Architecture style focuses on the overall system rather individual module or sub-module. This provides greater control to steer towards a robust architecture. UBER is nothing but an architecture style</li>
 <li>Architecture Pattern's and Design Pattern's together enables realization of an architecture style. Their impact is localized and focuses on each individual module, classes and objects etc</li>
 <li>This architecture style or approach is also known as layered architecture and its been use in the industry for a long time in server side application, infra-structure deployment etc</li>
-<li> This clear seperation of layers would also enable you us to unit test business services and each individual module</li>
+<li> This clear seperation of layers would also enable us to unit test business services and each individual module</li>
 </ul>
